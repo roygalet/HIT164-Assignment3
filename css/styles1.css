@@ -1,0 +1,143 @@
+/* Roy Galet, s244715 */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+	font-weight: 300;
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('../fonts/Roboto-Light.ttf');
+	font-weight: 300;
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('../fonts/Roboto-Thin.ttf');
+	font-weight: 400;
+}
+
+body{
+	/*background-image: url('../img/blur2.jpg');
+	background-size:cover;
+	background-color:black;
+	color:white;
+	text-shadow: 0 0 5px #000000;*/
+}
+
+ol,li{
+	font-family: "Roboto", serif, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;	
+	margin-top: 1.0em;
+}
+
+
+
+/*a:link {color:#FFFFFF;}      /* unvisited link */
+/*a:visited {color:#f1aff0;}  /* visited link */
+/*a:hover {color:#47c4d9;}  /* mouse over link */
+/*a:active {color:#0073bd;}  /* selected link */
+
+.hangingindent {
+    padding-left: 3em ;
+    text-indent: -3em ;
+}
+
+.content{
+    margin:15px;/*size of border*/
+    /*background-color:rgba(128,128,128, 0.1);
+	border-color: rgba(255,255,255, 0.5);*/
+}
+
+body{
+	font-family: "Roboto",sans-serif, serif;
+	width: 80%;
+	max-width: 960px;
+	margin: auto;
+}
+
+p{
+	text-indent: 3em;
+	padding-left: 2em;
+}
+
+table{
+	padding-left: 2em;
+	font-size: 90%;
+}
+
+h1{
+	font-family: "RobotoLight", serif, sans-serif;
+	font-size: 1.8em;
+}
+.introheader{
+	text-align:center;
+	
+}
+
+img.introimage{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-height:50px;
+}
+img.intropic{
+	display: block;
+    margin: auto;
+/*    margin-right: auto;*/
+	max-height:240px;
+}
+
+footer.introfooter{
+	text-align:center;
+	display:block;
+	margin:auto;
+}
+
+h2{
+	font-size: 1.5em;
+}
+
+.introduction{
+	font-family: "RobotoThin", serif, sans-serif;
+	text-align:center;
+	font-size: 1.3em;
+}
+
+img.topicheaderimage{
+	max-height:30px;
+}
+
+h2.topicheader{
+	font-family:"RobotoLight", serif, sans-serif;
+	line-height:0em;
+	font-size:0.9em;
+}
+
+ul.topicnav
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+a.topicitem
+{
+	display:block;
+	float:left;
+	width=100%;
+	text-align:center;
+	padding:8px;
+	text-decoration:none;
+}
+
+figure,figcaption{
+	text-align: center;
+	font-size: 0.8em;
+}
+/*
+header,footer{
+	position:fixed;
+}*/

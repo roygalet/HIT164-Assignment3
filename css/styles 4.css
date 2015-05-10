@@ -1,0 +1,118 @@
+/* Roy Galet, s244715 */
+@font-face{
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+	font-weight: 300;
+}
+
+@font-face{
+    font-family: 'RobotoLight';
+    src: url('../fonts/Roboto-Light.ttf');
+	font-weight: 300;
+}
+
+@font-face{
+    font-family: 'RobotoThin';
+    src: url('../fonts/Roboto-Thin.ttf');
+	font-weight: 400;
+}
+
+body{
+	font-family: "Roboto", serif, san-serif;
+	width: 80%;
+	max-width: 900px;
+	margin: auto;
+	text-indent: 3em;
+}
+
+h1{
+	font-family: "RobotoLight", serif, san-serif;
+	text-indent: 0em;
+	font-size: 1.5em;
+}
+
+li{
+	text-indent: 2em;
+	list-style-position: inside;
+}
+
+img{
+	max-width: 80%;
+}
+
+header{
+	background-image: url('../img/headerbg.png');
+	max-width: 960px;
+}
+
+h1.headertitle{
+	font-family: "RobotoThin", serif, sans-serif;
+	color: white;
+	text-shadow: 0 0 10px #000000;
+	text-indent: 0.2em;
+}
+
+li.menulinks{
+	display: inline;
+	padding: 0.5em;
+	background-color: rgba(255,255,255,0.2);
+	text-shadow: 0 0 10px #000000;
+}
+
+a.headermenu{
+	font-family: "Roboto", serif, san-serif;
+	text-decoration: none;
+	color: white;	
+}
+
+a.readmore{
+	font-family: "Roboto", serif, san-serif;
+	color: #000088;
+}
+
+figure,figcaption{
+	text-align: center;
+	font-size: 0.85em;
+}
+
+img.headerimage{
+	max-height: 25px;
+}
+
+img.homeimage{
+	max-height: 160px;
+}
+
+h1.headertitle{
+	vertical-align: center;
+}
+
+section.homegallery{
+	text-align: center;
+}
+
+aside.introduction{
+	text-align: none;
+	max-width: 960px;
+}
+
+.hangingindent {
+    padding-left: 3em ;
+    text-indent: -3em ;
+}
+
+blockquote{
+	text-indent: 2em;
+	padding-left: 2em;
+	padding-right: 3em;
+}
+
+footer{	
+	text-align: center;	
+	font-size: 0.9em;
+	font-family: "RobotoThin", serif, san-serif
+{
+
+table{
+	
+}

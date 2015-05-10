@@ -1,0 +1,58 @@
+/* Roy Galet, s244715 */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf');
+	font-weight: 300;
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('../fonts/Roboto-Light.ttf');
+	font-weight: 300;
+}
+
+@font-face {
+    font-family: 'RobotoThin';
+    src: url('../fonts/Roboto-Thin.ttf');
+	font-weight: 400;
+}
+
+body{
+	font-family: "RobotoLight";
+}
+h1.headertitle{
+	font-family:"RobotoThin", serif, sans-serif;
+}
+
+li.menulinks{
+	display:inline;
+	padding: 0.5em;
+}
+
+a.headermenu,a.readmore{
+	font-family: "Roboto";
+	text-decoration: none;
+	
+}
+
+img.homeimage{
+	max-height:240px;
+}
+
+img.headerimage{
+	max-height:25px;
+}
+
+h1.headertitle{
+	vertical-align: center;
+}
+
+section.homegallery{
+	text-align:center;
+}
+
+div #gallery{
+/* 	display: inline-block;
+ *//* 	white-space:nowrap;
+ */	/* overflow:hidden; */
+}
